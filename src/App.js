@@ -67,10 +67,10 @@ function App() {
          
           <div class="container">
               <div class="col-sm-12 col-md-12 col-lg-12 col-12 ">
-              <input class="form-control" onChange={(e)=>setCity(e.target.value) } id="input" type="text" placeholder="ENTER THE NAME OF A PLACE" aria-label="default input example" style={{ borderRadius: 150, position: 'absolute', top: 60,width:400}} />
+              <input class="form-control" onChange={(e)=>setCity(e.target.value) } id="input" type="text" placeholder="ENTER THE NAME OF A PLACE" aria-label="default input example" style={{ borderRadius: 150, position: 'absolute', top: 60,width:290}} />
               </div>
               <div class="col-sm-12 col-md-12 col-lg-12 col-12 ">
-                  <button type="button"  onClick={()=>search() } class="btn btn-info" style={{ borderRadius: 100, position: 'absolute', top: 120, width: 100, left: 150 }} >FIND</button>
+                  <button type="button"  onClick={()=>search() } class="btn btn-info" style={{ borderRadius: 100, position: 'absolute', top: 120, width: 100, left: 120 }} >FIND</button>
               </div>
           </div>
           <div class="container">

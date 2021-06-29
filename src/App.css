@@ -38,10 +38,13 @@
 }
 .top {
     background-image: url('./w.jpeg');
-    background-size:cover;
-    height: 158vh;
-    width:100vw;
+    height: 1200px;
+    width: 100%;
+    text-align: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-
-
+    
